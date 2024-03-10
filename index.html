@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="calculator.css">
+    <script defer src="./math.min.js"></script>
+    <!-- <script src="./bootstrap.min.js" defer></script> -->
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="./calculator.png"  type="image/x-icon">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <!-- <div class="d-flex flex-column justify-content-center" style="width: 50%;">
+        <div class=" d-flex justify-content-start">
+            <form class="form-inline">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+            </form>
+        </div>
+        <div class="d-flex flex-row justify-content-end">
+          <div class="col-sm">
+            <button type="button" class="btn btn-secondary">Secondary</button>
+          </div>
+          <div class="col-sm">
+            <button type="button" class="btn btn-secondary">Secondary</button>
+          </div>
+          <div class="col-sm">
+            <button type="button" class="btn btn-secondary">Secondary</button>
+          </div>
+        </div>
+      </div> -->
+
+    <div class="calculator">
+        <form class="calculator-screen" >
+            <input class="screen" type="text">
+        </form>
+        <div class="first-row row">
+            <div class="column">
+                <button class="operator reset-button">C</button>
+                <button class="operator delete">DEL</button>
+                <button class="operator %">%</button>
+                <button class="operator divide">/</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button class="seven">7</button>
+                <button class="eight">8</button>
+                <button class="nine">9</button>
+                <button value="*" class=" operator multiply">X</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button class="four">4</button>
+                <button class="five">5</button>
+                <button class="six">6</button>
+                <button class="minus operator">-</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button class="one">1</button>
+                <button class="two">2</button>
+                <button class="three">3</button>
+                <button class="plus operator">+</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button class="zero">0</button>
+                <button class="point operator">.</button>
+                <button class="equalTo operator">=</button>
+            </div>
+        </div>
+
+    </div>     
+</body>
+</html>
